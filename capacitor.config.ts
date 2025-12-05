@@ -6,11 +6,10 @@ const config: CapacitorConfig = {
   appName: "SimpleAITrade",
   webDir: "www",
   bundledWebRuntime: false,
-  server: {
-    // 👇 This is your existing web app
-    url: "https://simpleaitrade.com",
-    cleartext: true
-  }
+server: {
+  url: "https://www.simpleaitrade.com/",
+  cleartext: true
+}
 };
 
 export default config;
