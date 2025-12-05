@@ -1,0 +1,20 @@
+{
+  "name": "simpleaitrade-mobile",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "echo \"Remote app – nothing to build\"",
+    "sync": "npx cap sync",
+    "android": "npx cap open android",
+    "ios": "npx cap open ios"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/ios": "^6.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.0.0",
+    "typescript": "^5.7.0"
+  }
+}
